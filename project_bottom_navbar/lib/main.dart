@@ -29,7 +29,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
     Text(
-      'Index 0: Menu',
+      'NASI GORENG RP 5000'
+      '------------'
+      'NASI PADANG RP 23000',
       style: optionStyle,
     ),
     Text(
@@ -54,9 +56,11 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       appBar: AppBar(
         title: const Text('MUHAMMAD IKHWANUL'),
       ),
+      
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
+      
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
