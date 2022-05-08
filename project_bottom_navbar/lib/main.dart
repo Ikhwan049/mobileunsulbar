@@ -29,9 +29,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
     Text(
-      'NASI GORENG RP 5000'
-      '------------'
-      'NASI PADANG RP 23000',
+      'Index 0: Menu',
       style: optionStyle,
     ),
     Text(
